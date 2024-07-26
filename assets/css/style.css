@@ -16,9 +16,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed; /*sticks to the screen*/
+    z-index: 99; /*stacking order*/
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a; /*adds shading effect*/
 }
 
 /* Main content */
